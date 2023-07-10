@@ -2,7 +2,7 @@
     <div>
         <v-app-bar app color="surface" height="80" class="el" :style="{padding : $vuetify.breakpoint.mdAndUp ? '0px 100px': ''}">
             <v-toolbar-title @click="$router.push('/')" class="text-md-h5 font-weight-bold pointer">
-                FreeCommerce
+                MarketPlace
             </v-toolbar-title>
             <v-spacer/>
             <v-btn icon nuxt to="/products">
